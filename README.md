@@ -8,7 +8,7 @@ configured. All needed values to handle pagination is always returned by the RES
 This example set the page size to 20 (in *application.properties*). Furthermore, sorting is defaulted to ascending 
 on a specific field (here *name* of entity *item*).
 
-The page response looks like this example:
+The page response looks like this example (note that here are only 2 items for simplicity reasons):
 ```json
 {
     "content": [
@@ -16,9 +16,6 @@ The page response looks like this example:
             "name": "B",
             "description": "m"
         },
-        
-        // 18 more items here
-      
         {
             "name": "BpTTbzEfdzekdoaucGfDfQpH",
             "description": "OrTaSWaNAqzaEDxGfaRtHvJcWSzcTp"
